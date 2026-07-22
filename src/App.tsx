@@ -1,11 +1,13 @@
 import { useEffect, useState, type ReactNode } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { ArrowRight, ChevronDown, Clock3, Flame, Camera, MapPin, Menu, Phone, Play, X, Heart, UtensilsCrossed, ChevronUp, BadgeDollarSign, Music2 } from 'lucide-react'
+import wingsImg from './assets/fgztd4xr7pk71.jpg'
+import tendersImg from './assets/fe34bc81-1be4-481a-b577-3e62ca7140d4-retina-large.jpg.webp'
 
 const photos = {
   tacos: 'https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&w=1400&q=85',
-  wings: 'src/assets/fgztd4xr7pk71.jpg',
-  tenders: 'src/assets/fe34bc81-1be4-481a-b577-3e62ca7140d4-retina-large.jpg.webp',
+  wings: wingsImg,
+  tenders: tendersImg,
   quesadilla: 'https://images.unsplash.com/photo-1618040996337-56904b7850b9?auto=format&fit=crop&w=1400&q=85',
   tacosAlt: 'https://images.unsplash.com/photo-1604467715878-83e57e8bc129?auto=format&fit=crop&w=1400&q=85',
 }
